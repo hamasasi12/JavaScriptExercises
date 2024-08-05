@@ -1,9 +1,13 @@
-const container = document.querySelector('.container')
-const test = document.querySelector('.test')
-const wrapper = document.querySelector('.wrapper')
+const dicoding = document.querySelectorAll("hamas");
 
-const addingText = document.createElement('p')
-addingText.textContent = "hamas akif sanie"
+const hamas = prompt("hamas");
+const akif = prompt("akif");
+const sanie = prompt("sanie");
 
-container.append(addingText)
+let nama = [hamas, akif, sanie];
 
+const testing = (arrays) => {
+    let testing = arrays.split("").reverse().join("");
+    
+    
+}
