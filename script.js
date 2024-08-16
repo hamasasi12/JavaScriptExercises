@@ -1,13 +1,8 @@
-const dicoding = document.querySelectorAll("hamas");
+const testing = document.querySelector("hamas");
 
-const hamas = prompt("hamas");
-const akif = prompt("akif");
-const sanie = prompt("sanie");
+const test = [testing];
 
-let nama = [hamas, akif, sanie];
-
-const testing = (arrays) => {
-    let testing = arrays.split("").reverse().join("");
-    
-    
+function dicoding (arrays) {
+    let hamas = arrays.split("").reverse().join("");
+    return console.log(hamas);
 }
